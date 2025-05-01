@@ -2,8 +2,7 @@
 using namespace std;
 int main()
 {
-    cout<<"Hello World";
-    return 0;
+    cout<<"Hello World"<<endl;
     int n;
     long factorial = 1.0;
 
