@@ -31,5 +31,23 @@ int main()
         }
         cout << endl;
     }
+    int count = 0, number = 2, nthPrime;
+    while (count < n) {
+        bool isPrime = true;
+        for (int i = 2; i * i <= number; ++i) {
+            if (number % i == 0) {
+                isPrime = false;
+                break;
+            }
+        }
+        if (isPrime)
+            count++;
+        
+        if (count < n)
+            number++;
+    }
+    
+    nthPrime = number;
+    cout << "The " << n << "th prime number is: " << nthPrime << endl;
     return 0;
 }
