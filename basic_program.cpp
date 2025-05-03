@@ -4,7 +4,7 @@ int main()
 {
     cout<<"Hello World"<<endl;
     int n;
-    long factorial = 0;
+    long factorial = 1;
 
     cout << "Enter a positive integer: ";
     cin >> n;
